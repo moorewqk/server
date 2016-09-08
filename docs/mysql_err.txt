@@ -1,0 +1,8 @@
+
+在python install.py后，导入表出错： 
+mysql_exceptions.Warning: Incorrect string value: '\xE6\x9C\xBA\xE6\x88\xBF' for column 'name' at row 1
+
+drop database jumpserver;
+create database jumpserver default charset='utf8';
+grant all on jumpserver.* to 'jumpserver'@'127.0.0.1' identified by '5Lov@wife';
+
